@@ -1,0 +1,16 @@
+{
+    "RetailerCustomer_Retailer": {
+        "servicename": "RetailerCustomer",
+        "serviceid": "40bd4599-b6a9-4a3b-b93a-7b269fe15dd5",
+        "type": "objectsvcs",
+        "objectname": "Retailer",
+        "objectid": "13521"
+    },
+    "VoucherObject_voucher": {
+        "servicename": "VoucherObject",
+        "serviceid": "037d69b7-11aa-4f5e-a9f9-3f5a46e095a8",
+        "type": "objectsvcs",
+        "objectname": "voucher",
+        "objectid": "13505"
+    }
+}

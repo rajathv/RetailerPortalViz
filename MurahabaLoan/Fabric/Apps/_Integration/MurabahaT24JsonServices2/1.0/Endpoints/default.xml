@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<endpoint name="default" type="JSON" url="http://172.18.192.22:8081/infinity-mfb-provider/api/v1.0.0/holdings/" encryptSecureInfo="false">
+    <config>
+        <entry>
+            <key>server.auth.mode</key>
+            <value>basic</value>
+        </entry>
+        <entry>
+            <key>ignorehttpproxy</key>
+            <value>true</value>
+        </entry>
+        <entry>
+            <key>pwd</key>
+            <value>123456</value>
+        </entry>
+        <entry>
+            <key>userid</key>
+            <value>INPUTT</value>
+        </entry>
+    </config>
+    <apiThrottling/>
+    <jsonpath>true</jsonpath>
+</endpoint>

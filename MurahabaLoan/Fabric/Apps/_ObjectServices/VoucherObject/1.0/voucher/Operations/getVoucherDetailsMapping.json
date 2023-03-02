@@ -1,0 +1,42 @@
+{
+  "operationConfig" : {
+    "name" : "GetVoucherByCodeOrNumber7141",
+    "type" : "MappedToBackend",
+    "cachable" : false,
+    "smsEnabled" : false,
+    "security" : "public",
+    "responseEncoding" : "UTF-8",
+    "httpMethod" : "GET",
+    "decodeResponseBody" : false,
+    "iMapping" : "<?xml version=\"1.0\" encoding=\"UTF-8\" standalone=\"yes\"?>\n<mapper xmlns=\"http://www.kony.com/ns/mapper\">\n    <map inputpath=\"request_in\" outputpath=\"request_out\">\n        <set-param inputpath=\"voucherid\" outputpath=\"input_value\"/>\n        <set-param inputpath=\"code\" outputpath=\"input_value_type\"/>\n    </map>\n</mapper>\n",
+    "iVisualMappingData" : "{\"nodeDataArray\":[{\"isGroup\":true,\"key\":\"request_in\",\"text\":\"voucher\",\"xy\":\"274 141\"},{\"isGroup\":true,\"key\":\"request_out\",\"text\":\"RetailerJavaService2 (1.0).GetVoucherByCodeOrNumber\",\"xy\":\"798 121\"}],\"linkDataArray\":[{\"category\":\"Mapping\",\"visible\":true,\"from\":\"source:voucher:voucherid:\",\"to\":\"target:input_value:\",\"fromPort\":\"source:voucher:voucherid:\",\"toPort\":\"target:input_value:\"},{\"category\":\"Mapping\",\"visible\":true,\"from\":\"source:voucher:code:\",\"to\":\"target:input_value_type:\",\"fromPort\":\"source:voucher:code:\",\"toPort\":\"target:input_value_type:\"}],\"blockCount\":{\"variableCount\":0},\"variableMap\":{},\"xmlMappingOverride\":false}",
+    "applyCommonMapping" : false,
+    "applyRequestCommonMapping" : false,
+    "applyResponseCommonMapping" : true,
+    "backendMeta" : {
+      "serviceName" : "RetailerJavaService2",
+      "serviceVersion" : "1.0",
+      "operationName" : "GetVoucherByCodeOrNumber"
+    },
+    "relationshipHierarchyMapping" : {
+      "children" : [ ],
+      "name" : "voucher",
+      "actions" : { },
+      "selected" : true
+    },
+    "requestXmlMappingOverride" : false,
+    "responseXmlMappingOverride" : false,
+    "mapperData" : [ {
+      "name" : "base mapper1",
+      "order" : 1,
+      "iMapping" : "<?xml version=\"1.0\" encoding=\"UTF-8\" standalone=\"yes\"?>\n<mapper xmlns=\"http://www.kony.com/ns/mapper\">\n    <map inputpath=\"request_in\" outputpath=\"request_out\">\n        <set-param inputpath=\"voucherid\" outputpath=\"input_value\"/>\n        <set-param inputpath=\"code\" outputpath=\"input_value_type\"/>\n    </map>\n</mapper>\n",
+      "iVisualMappingData" : "{\"nodeDataArray\":[{\"isGroup\":true,\"key\":\"request_in\",\"text\":\"voucher\",\"xy\":\"274 141\"},{\"isGroup\":true,\"key\":\"request_out\",\"text\":\"RetailerJavaService2 (1.0).GetVoucherByCodeOrNumber\",\"xy\":\"798 121\"}],\"linkDataArray\":[{\"category\":\"Mapping\",\"visible\":true,\"from\":\"source:voucher:voucherid:\",\"to\":\"target:input_value:\",\"fromPort\":\"source:voucher:voucherid:\",\"toPort\":\"target:input_value:\"},{\"category\":\"Mapping\",\"visible\":true,\"from\":\"source:voucher:code:\",\"to\":\"target:input_value_type:\",\"fromPort\":\"source:voucher:code:\",\"toPort\":\"target:input_value_type:\"}],\"blockCount\":{\"variableCount\":0},\"variableMap\":{},\"xmlMappingOverride\":false}",
+      "requestXmlMappingOverride" : false,
+      "responseXmlMappingOverride" : false,
+      "disabled" : false,
+      "applyCommonMapping" : false,
+      "applyRequestCommonMapping" : false,
+      "applyResponseCommonMapping" : true
+    } ]
+  }
+}

@@ -1,0 +1,23 @@
+{
+    "active": 1,
+    "comments": {},
+    "requirements": {
+        "a575339d29fa43fb9beaea3cbd8c2369": {
+            "e385-ef94-8ec6-2dba-1393-3bb9": {
+                "createdById": "",
+                "createdBy": "Anonymous",
+                "createdByEmail": "",
+                "label": "1",
+                "createdOn": "1669783080067",
+                "lastModifiedTime": 1669783080067,
+                "active": 0,
+                "widgetId": "a575339d29fa43fb9beaea3cbd8c2369",
+                "formId": "hcb095da60264f9e84c7b1e1444c871a",
+                "channel": "desktop",
+                "requirementId": "e385-ef94-8ec6-2dba-1393-3bb9",
+                "body": "<p>When flxError will be turn on btnContinue top value should be 20px</p>"
+            }
+        }
+    },
+    "requirementSeqId": 1
+}

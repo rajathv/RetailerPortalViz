@@ -1,0 +1,17 @@
+{
+    "AS_AppEvents_jb6525bd56bc445f922c6c8831d0ab82": {
+        "id": "AS_AppEvents_jb6525bd56bc445f922c6c8831d0ab82",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET_ab56f39edb834260b15715569e11b881",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "kony.print(\"Testing JS Load\");\n_kony.mvc.initCompositeApp(true);\nvar isIOS13 = (/(iPad|iPhone);.*CPU.*OS 13_\\d/i).test(navigator.userAgent);\nif (isIOS13) {\n  kony.application.setApplicationBehaviors({\n    disableForceRepaint: true\n  });\n}\nvar moduleName = 'ApplicationManager';\nrequire([moduleName], function(ApplicationManager) {\n  applicationManager = ApplicationManager.getApplicationManager();\n  document.body.addEventListener('contextmenu', function(e) {\n    e.preventDefault();\n    alert(kony.i18n.getLocalizedString(\"i18n.general.rightclickdisabled\"));\n  });\n});",
+            "parentId": null
+        }]
+    }
+}

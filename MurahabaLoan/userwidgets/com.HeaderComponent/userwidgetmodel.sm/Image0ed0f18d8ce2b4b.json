@@ -1,0 +1,52 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizImage2",
+    "DNDConfig": null,
+    "_base64_": null,
+    "_height_": {
+        "type": "string",
+        "value": "32px"
+    },
+    "_left_": {
+        "type": "string",
+        "value": "1px"
+    },
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_skin_": "sa9987a1be0e43e4bef5a1760a4c37db",
+    "_src_": "logo1x.png",
+    "_width_": {
+        "type": "string",
+        "value": "32px"
+    },
+    "canUpdateUI": true,
+    "centery": {
+        "type": "string",
+        "value": "55%"
+    },
+    "containerweight": 100,
+    "id": "Image0ed0f18d8ce2b4b",
+    "imagescalemode": 1,
+    "info": null,
+    "iscustomlayout": false,
+    "isvisible": true,
+    "kuid": "u28c40da4ec840a6b924835b077692c7",
+    "name": "kony.ui.Image2",
+    "parent": "flxLogoContianer",
+    "pf": "userwidgetmodel",
+    "retaincontentalignment": false,
+    "retainflexpositionproperties": false,
+    "srcType": 1,
+    "wType": "Image",
+    "widgetalignment": 5,
+    "zindex": 1
+}

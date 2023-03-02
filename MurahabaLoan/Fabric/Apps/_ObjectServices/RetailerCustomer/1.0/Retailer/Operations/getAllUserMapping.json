@@ -1,0 +1,42 @@
+{
+  "operationConfig" : {
+    "name" : "getAllUsers5565",
+    "type" : "MappedToBackend",
+    "cachable" : false,
+    "smsEnabled" : false,
+    "security" : "public",
+    "responseEncoding" : "UTF-8",
+    "httpMethod" : "GET",
+    "decodeResponseBody" : false,
+    "iMapping" : "<?xml version=\"1.0\" encoding=\"UTF-8\" standalone=\"yes\"?>\n<mapper xmlns=\"http://www.kony.com/ns/mapper\">\n    <map inputpath=\"request_in\" outputpath=\"request_out\">\n        <set-param inputpath=\"retailerid\" outputpath=\"retailerid\"/>\n    </map>\n</mapper>\n",
+    "iVisualMappingData" : "{\"nodeDataArray\":[{\"isGroup\":true,\"key\":\"request_in\",\"text\":\"Retailer\",\"xy\":\"150 100\"},{\"isGroup\":true,\"key\":\"request_out\",\"text\":\"RetailerJavaService (1.0).getAllUsers\",\"xy\":\"770 100\"}],\"linkDataArray\":[{\"category\":\"Mapping\",\"visible\":true,\"from\":\"source:Retailer:retailerid:\",\"to\":\"target:retailerid:\",\"fromPort\":\"source:Retailer:retailerid:\",\"toPort\":\"target:retailerid:\"}],\"blockCount\":{\"variableCount\":0},\"variableMap\":{},\"xmlMappingOverride\":false}",
+    "applyCommonMapping" : false,
+    "applyRequestCommonMapping" : false,
+    "applyResponseCommonMapping" : true,
+    "backendMeta" : {
+      "serviceName" : "RetailerJavaService",
+      "serviceVersion" : "1.0",
+      "operationName" : "getAllUsers"
+    },
+    "relationshipHierarchyMapping" : {
+      "children" : [ ],
+      "name" : "Retailer",
+      "actions" : { },
+      "selected" : true
+    },
+    "requestXmlMappingOverride" : false,
+    "responseXmlMappingOverride" : false,
+    "mapperData" : [ {
+      "name" : "base mapper1",
+      "order" : 1,
+      "iMapping" : "<?xml version=\"1.0\" encoding=\"UTF-8\" standalone=\"yes\"?><mapper xmlns=\"http://www.kony.com/ns/mapper\">  <map inputpath=\"request_in\" outputpath=\"request_out\">    <set-param inputpath=\"retailerid\" outputpath=\"retailerid\"/>  </map></mapper>",
+      "iVisualMappingData" : "{\"nodeDataArray\":[{\"isGroup\":true,\"key\":\"request_in\",\"text\":\"Retailer\",\"xy\":\"150 100\"},{\"isGroup\":true,\"key\":\"request_out\",\"text\":\"RetailerJavaService (1.0).getAllUsers\",\"xy\":\"770 100\"}],\"linkDataArray\":[{\"from\":\"source\",\"to\":\"source:Retailer\",\"fromPort\":\"source\",\"toPort\":\"source:Retailer\",\"visible\":true,\"common\":false},{\"from\":\"source:Retailer\",\"to\":\"source:Retailer:t_p_fields\",\"fromPort\":\"source:Retailer\",\"toPort\":\"source:Retailer:t_p_fields\",\"visible\":true,\"common\":false},{\"from\":\"source:Retailer:t_p_fields\",\"to\":\"source:Retailer:userid:\",\"fromPort\":\"source:Retailer:t_p_fields\",\"toPort\":\"source:Retailer:userid:\",\"visible\":true,\"common\":false},{\"from\":\"source:Retailer:t_p_fields\",\"to\":\"source:Retailer:password:\",\"fromPort\":\"source:Retailer:t_p_fields\",\"toPort\":\"source:Retailer:password:\",\"visible\":true,\"common\":false},{\"from\":\"source:Retailer:t_p_fields\",\"to\":\"source:Retailer:temppassword:\",\"fromPort\":\"source:Retailer:t_p_fields\",\"toPort\":\"source:Retailer:temppassword:\",\"visible\":true,\"common\":false},{\"from\":\"source:Retailer:t_p_fields\",\"to\":\"source:Retailer:resetpassword:\",\"fromPort\":\"source:Retailer:t_p_fields\",\"toPort\":\"source:Retailer:resetpassword:\",\"visible\":true,\"common\":false},{\"from\":\"source:Retailer:t_p_fields\",\"to\":\"source:Retailer:status:\",\"fromPort\":\"source:Retailer:t_p_fields\",\"toPort\":\"source:Retailer:status:\",\"visible\":true,\"common\":false},{\"from\":\"source:Retailer:t_p_fields\",\"to\":\"source:Retailer:retailerid:\",\"fromPort\":\"source:Retailer:t_p_fields\",\"toPort\":\"source:Retailer:retailerid:\",\"visible\":true,\"common\":false},{\"from\":\"source:Retailer:t_p_fields\",\"to\":\"source:Retailer:retailername:\",\"fromPort\":\"source:Retailer:t_p_fields\",\"toPort\":\"source:Retailer:retailername:\",\"visible\":true,\"common\":false},{\"from\":\"source:Retailer:t_p_fields\",\"to\":\"source:Retailer:role:\",\"fromPort\":\"source:Retailer:t_p_fields\",\"toPort\":\"source:Retailer:role:\",\"visible\":true,\"common\":false},{\"from\":\"source:Retailer:t_p_fields\",\"to\":\"source:Retailer:phoneno:\",\"fromPort\":\"source:Retailer:t_p_fields\",\"toPort\":\"source:Retailer:phoneno:\",\"visible\":true,\"common\":false},{\"from\":\"source:Retailer:t_p_fields\",\"to\":\"source:Retailer:emailid:\",\"fromPort\":\"source:Retailer:t_p_fields\",\"toPort\":\"source:Retailer:emailid:\",\"visible\":true,\"common\":false},{\"from\":\"source:Retailer:t_p_fields\",\"to\":\"source:Retailer:username:\",\"fromPort\":\"source:Retailer:t_p_fields\",\"toPort\":\"source:Retailer:username:\",\"visible\":true,\"common\":false},{\"from\":\"target\",\"to\":\"target:t_p_parameters\",\"fromPort\":\"target\",\"toPort\":\"target:t_p_parameters\",\"visible\":true,\"common\":false},{\"from\":\"target:t_p_parameters\",\"to\":\"target:retailerid:\",\"fromPort\":\"target:t_p_parameters\",\"toPort\":\"target:retailerid:\",\"visible\":true,\"common\":false},{\"category\":\"Mapping\",\"visible\":true,\"from\":\"source:Retailer:retailerid:\",\"to\":\"target:retailerid:\",\"fromPort\":\"source:Retailer:retailerid:\",\"toPort\":\"target:retailerid:\"}],\"blockCount\":{\"variableCount\":0},\"variableMap\":{},\"xmlMappingOverride\":false}",
+      "requestXmlMappingOverride" : false,
+      "responseXmlMappingOverride" : false,
+      "disabled" : false,
+      "applyCommonMapping" : false,
+      "applyRequestCommonMapping" : false,
+      "applyResponseCommonMapping" : true
+    } ]
+  }
+}

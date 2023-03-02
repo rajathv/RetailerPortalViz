@@ -1,0 +1,278 @@
+{
+    "@class": "com.kony.gen.viz.model.container.KVizSegment2",
+    "DNDConfig": null,
+    "_data_": [
+        [
+            {
+                "lblAmount": {
+                    "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                    "text": ""
+                },
+                "lblApplicantName": {
+                    "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                    "text": "starting"
+                },
+                "lblApplicantPhone": {
+                    "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                    "text": ""
+                },
+                "lblApplicatntId": {
+                    "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                    "text": ""
+                },
+                "lblExpiryDate": {
+                    "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                    "text": ""
+                },
+                "lblGenerateDate": {
+                    "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                    "text": ""
+                },
+                "lblRetailerName": {
+                    "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                    "text": ""
+                },
+                "lblUserId": {
+                    "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                    "text": ""
+                },
+                "lblVoucherNo": {
+                    "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                    "text": ""
+                },
+                "lblVoucherStatus": {
+                    "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                    "text": ""
+                },
+                "lbldate": {
+                    "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                    "text": "ending"
+                }
+            },
+            [
+                {
+                    "lblApplicantName": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": "1111111111111"
+                    },
+                    "lblApplicantPhone": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": "1111111111111"
+                    },
+                    "lblApplicatntId": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": "11111111222211111"
+                    },
+                    "lblDateTime": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": "1111111111111"
+                    },
+                    "lblExpiryDate": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": "1111111111111"
+                    },
+                    "lblGenerationDate": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": "1111111111111"
+                    },
+                    "lblLoanAmount": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": "1111111111111"
+                    },
+                    "lblRetailerName": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": "1111111111111"
+                    },
+                    "lblUserID": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": "1111111111111"
+                    },
+                    "lblVoucherNumber": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": "1111111111111"
+                    },
+                    "lblVoucherStatus": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": "1111111111111"
+                    }
+                },
+                {
+                    "lblApplicantName": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": "2222"
+                    },
+                    "lblApplicantPhone": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": "2222"
+                    },
+                    "lblApplicatntId": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": "2222"
+                    },
+                    "lblDateTime": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": "2222"
+                    },
+                    "lblExpiryDate": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": "2222"
+                    },
+                    "lblGenerationDate": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": "2222"
+                    },
+                    "lblLoanAmount": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": "2222"
+                    },
+                    "lblRetailerName": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": "2222"
+                    },
+                    "lblUserID": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": "2222"
+                    },
+                    "lblVoucherNumber": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": "2222"
+                    },
+                    "lblVoucherStatus": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": "2222"
+                    }
+                }
+            ]
+        ]
+    ],
+    "_height_": {
+        "type": "string",
+        "value": "99.00%"
+    },
+    "_indicator_": "none",
+    "_left_": {
+        "type": "string",
+        "value": "0dp"
+    },
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_orientation_": 2,
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_top_": {
+        "type": "string",
+        "value": "0dp"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "100%"
+    },
+    "autogrowmode": 0,
+    "canUpdateUI": true,
+    "containerweight": 100,
+    "counter": "01",
+    "focusedindex": null,
+    "focuseditem": null,
+    "groupcells": false,
+    "hasSections": true,
+    "id": "segVoucherData",
+    "info": null,
+    "ipad": {
+        "psp": {
+            "indicator": "rowselect"
+        }
+    },
+    "iphone": {
+        "psp": {
+            "indicator": "rowselect"
+        }
+    },
+    "iscustomlayout": false,
+    "isvisible": true,
+    "kuid": "e546925d0ddd46b88ee4bce6e6299b23",
+    "masterdata": {},
+    "name": "kony.ui.SegmentedUI2",
+    "needpageindicator": true,
+    "pageoffdotimage": "pageoffdot.png",
+    "pageondotimage": "pageondot.png",
+    "paginationconfig": {
+        "position": "bottom",
+        "vdistance": 1
+    },
+    "parent": "flxscrollvoucherlist",
+    "pf": "frmGenerateVoucherMI",
+    "retaincontentalignment": false,
+    "retainflexpositionproperties": false,
+    "retainselection": false,
+    "rowTemplateId": "abcb9618a4854f529604d30b66586930",
+    "rowcounter": 1,
+    "rowfocusskin": "s81bee6c05da4ed2a18adb8f7714d88f",
+    "rowskin": "s165322209d54249b4908033abee8525",
+    "rowtemplate": "flxSegVoucherList",
+    "screenlevelwidget": false,
+    "seccounter": 0,
+    "sectionHeaderTemplateId": "c99aa5955d68439c816c3aa7a5cfed31",
+    "sectionheaderskin": "s5ecac6464bd43e1a456ff3c31887dc1",
+    "sectionheadertemplate": "flxVoucherHeader",
+    "selectedRows": null,
+    "selectedState": false,
+    "selectedindex": null,
+    "selectedindices": null,
+    "selecteditems": null,
+    "selectedsectionindex": 0,
+    "selectionbehavior": "default",
+    "selectionbehaviorconfig": null,
+    "separatorcolor": "aaaaaa00",
+    "separatorrequired": true,
+    "separatorthickness": 1,
+    "showscrollbars": true,
+    "swipeContext": {
+        "currentPage": 0,
+        "imageWidth": 1003,
+        "widthRatio": 0
+    },
+    "viewtype": "tableview",
+    "vizProps": {},
+    "wType": "Segment",
+    "widgetalignment": 5,
+    "widgetdatamap": {
+        "Copyflx0aa6c3fcb945146": "Copyflx0aa6c3fcb945146",
+        "Copyflx0b0429c32662845": "Copyflx0b0429c32662845",
+        "Copyflx0b32f0b58130443": "Copyflx0b32f0b58130443",
+        "Copyflx0b44e9847ab5b4a": "Copyflx0b44e9847ab5b4a",
+        "Copyflx0d073f3cf227742": "Copyflx0d073f3cf227742",
+        "Copyflx0f094c8b43cea49": "Copyflx0f094c8b43cea49",
+        "Copyflx0f26bb64162554d": "Copyflx0f26bb64162554d",
+        "Copyflx0f522cba27e0f47": "Copyflx0f522cba27e0f47",
+        "Copyflx0h4855b8f989f47": "Copyflx0h4855b8f989f47",
+        "Copyflx0hf84cd2fd1da4b": "Copyflx0hf84cd2fd1da4b",
+        "flx1": "flx1",
+        "flxSegVoucherList": "flxSegVoucherList",
+        "flxVoucherHeader": "flxVoucherHeader",
+        "lblAmount": "lblAmount",
+        "lblApplicantName": "lblApplicantName",
+        "lblApplicantPhone": "lblApplicantPhone",
+        "lblApplicatntId": "lblApplicatntId",
+        "lblDateTime": "lblDateTime",
+        "lblExpiryDate": "lblExpiryDate",
+        "lblGenerateDate": "lblGenerateDate",
+        "lblGenerationDate": "lblGenerationDate",
+        "lblLoanAmount": "lblLoanAmount",
+        "lblRetailerName": "lblRetailerName",
+        "lblUserID": "lblUserID",
+        "lblUserId": "lblUserId",
+        "lblVoucherNo": "lblVoucherNo",
+        "lblVoucherNumber": "lblVoucherNumber",
+        "lblVoucherStatus": "lblVoucherStatus",
+        "lbldate": "lbldate"
+    },
+    "zindex": 1
+}

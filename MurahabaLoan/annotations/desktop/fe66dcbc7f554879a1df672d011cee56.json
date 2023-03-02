@@ -1,0 +1,39 @@
+{
+    "active": 1,
+    "comments": {},
+    "requirements": {
+        "d86e7327568e43c0969a080e0242ffee": {
+            "ddc7-e313-44fd-4eef-78ef-54a3": {
+                "createdById": "",
+                "createdBy": "Anonymous",
+                "createdByEmail": "",
+                "label": "1",
+                "createdOn": "1669782924304",
+                "lastModifiedTime": 1669782924327,
+                "active": 1,
+                "widgetId": "d86e7327568e43c0969a080e0242ffee",
+                "formId": "fe66dcbc7f554879a1df672d011cee56",
+                "channel": "desktop",
+                "requirementId": "ddc7-e313-44fd-4eef-78ef-54a3",
+                "body": "<p>When flxError will be turn on btnContinue top value should be 20px</p>"
+            }
+        },
+        "ec8660356b2449a1a246568209f79e60": {
+            "dfe2-bfb8-dde3-549e-031e-2a0b": {
+                "createdById": "",
+                "createdBy": "Anonymous",
+                "createdByEmail": "",
+                "label": "2",
+                "createdOn": "1669782988457",
+                "lastModifiedTime": 1669782988474,
+                "active": 0,
+                "widgetId": "ec8660356b2449a1a246568209f79e60",
+                "formId": "fe66dcbc7f554879a1df672d011cee56",
+                "channel": "desktop",
+                "requirementId": "dfe2-bfb8-dde3-549e-031e-2a0b",
+                "body": "<p>without error msg - top 60px</p><p>with error msg - top 20px</p>"
+            }
+        }
+    },
+    "requirementSeqId": 2
+}

@@ -1,0 +1,49 @@
+{
+  "subType" : "customapp",
+  "description" : "Murahaba Retailer Portal",
+  "version" : "1.0",
+  "intSvcs" : [ {
+    "name" : "MurabahaT24JsonServices2",
+    "version" : "1.0",
+    "etag" : "d2c478ab-80eb-4d72-bfa5-122be612c89e"
+  }, {
+    "name" : "RetailerDBService",
+    "version" : "1.0",
+    "etag" : "9f4512b1-4684-4796-a683-7cf81a743f8a"
+  }, {
+    "name" : "RetailerDBService2",
+    "version" : "1.0",
+    "etag" : "7ea863dc-ce6c-453f-bf5c-2ef707bad0b0"
+  }, {
+    "name" : "RetailerJavaService",
+    "version" : "1.0",
+    "etag" : "4fb65a48-8b93-4621-9497-425b0aab81a9"
+  }, {
+    "name" : "RetailerJavaService2",
+    "version" : "1.0",
+    "etag" : "35cc8a31-f1c5-4d68-b2f3-d87a7fa5af81"
+  }, {
+    "name" : "RetailerLoginAPI",
+    "version" : "1.0",
+    "etag" : "985db0b0-18df-4ca5-ad2b-fe7fedb64122"
+  }, {
+    "name" : "UniphonicRestAPIMurabaha",
+    "version" : "1.0",
+    "etag" : "b0b4d212-d3e0-4e20-a423-31077c8733da"
+  }, {
+    "name" : "VoucherServices",
+    "version" : "1.0",
+    "etag" : "9dce9701-c414-486e-994a-6193ebc02c22"
+  } ],
+  "objectSvcs" : [ {
+    "name" : "RetailerCustomer",
+    "version" : "1.0",
+    "etag" : "c38d7835-3617-4ec7-b2d7-66e6eb1ba8c9"
+  }, {
+    "name" : "VoucherObject",
+    "version" : "1.0",
+    "etag" : "0deb42d5-b2ff-4f4a-ad6d-81e81b9bf80d"
+  } ],
+  "identity" : [ "MoraRetailerLogin", "MoraRetailerRepo" ],
+  "identitySvcConf" : "{\"session_idle_timeout_mins\":20,\"session_max_duration_mins\":360,\"show_security_attributes\":false,\"is_integrity_enabled\":false,\"auto_extend\":true}"
+}

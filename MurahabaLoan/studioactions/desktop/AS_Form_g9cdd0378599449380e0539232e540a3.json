@@ -1,0 +1,23 @@
+{
+    "AS_Form_g9cdd0378599449380e0539232e540a3": {
+        "id": "AS_Form_g9cdd0378599449380e0539232e540a3",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "frmModifyUser",
+            "type": "forms",
+            "platform": "",
+            "KUID": "d97569eb7d65476ea8e26fc5c2ad6002"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET_c47941471826459ebf42fecf05b02a38",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "this.onPostShow();",
+            "parentId": null
+        }]
+    }
+}

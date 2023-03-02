@@ -1,0 +1,23 @@
+{
+    "AS_Button_e8eee17deedf466b91c3d032fb0e55d8": {
+        "id": "AS_Button_e8eee17deedf466b91c3d032fb0e55d8",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "frmResetPassword",
+            "type": "forms",
+            "platform": "",
+            "KUID": "gc9f620731df4ac3b93400923c4dfa95"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET_babe1442110a444bbd70c70c7ab42f99",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "var x = new kony.mvc.Navigation(\"frmOtpValidation\");\nx.navigate();",
+            "parentId": null
+        }]
+    }
+}

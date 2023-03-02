@@ -1,0 +1,18 @@
+{
+  "type" : "svcdriven",
+  "custom" : false,
+  "junction" : false,
+  "customizable" : false,
+  "verbs" : {
+    "getVoucherList" : "getVoucherListMapping",
+    "generateVoucher" : "generateVoucherMapping",
+    "getVoucherMI" : "getVoucherMIMapping",
+    "getVoucherDetails" : "getVoucherDetailsMapping",
+    "redeemVoucher" : "redeemVoucherMapping"
+  },
+  "entityProperties" : {
+    "BatchMode" : "buffer",
+    "backendMeta" : { },
+    "designTimeBackendMeta" : { }
+  }
+}

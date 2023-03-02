@@ -1,0 +1,53 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizButton",
+    "DNDConfig": null,
+    "_height_": {
+        "type": "string",
+        "value": "50dp"
+    },
+    "_left_": {
+        "type": "string",
+        "value": "39%"
+    },
+    "_margin_": [
+        6,
+        6,
+        6,
+        6
+    ],
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_skin_": "sfb2f390ae6245b38c033f08f9cc3570",
+    "_text_": "Redeem Voucher",
+    "_top_": {
+        "type": "string",
+        "value": "0dp"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "200dp"
+    },
+    "canUpdateUI": true,
+    "containerweight": 100,
+    "contentalignment": 5,
+    "disabledSkins": {
+        "focusSkin": "s176815c9c1940f28494c7ee64682f8e"
+    },
+    "displaytext": true,
+    "id": "btnRedeemVoucher",
+    "info": null,
+    "iscustomlayout": false,
+    "isvisible": true,
+    "kuid": "e74bda3a59454d459152d01899b06b4d",
+    "name": "kony.ui.Button",
+    "parent": "flxBtnSec",
+    "pf": "frmRedeemVoucher",
+    "retaincontentalignment": false,
+    "retainflexpositionproperties": false,
+    "wType": "Button",
+    "zindex": 1
+}

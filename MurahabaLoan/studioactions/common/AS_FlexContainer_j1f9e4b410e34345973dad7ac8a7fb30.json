@@ -1,0 +1,28 @@
+{
+    "AS_FlexContainer_j1f9e4b410e34345973dad7ac8a7fb30": {
+        "id": "AS_FlexContainer_j1f9e4b410e34345973dad7ac8a7fb30",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }, {
+            "datatype": "string",
+            "name": "x"
+        }, {
+            "datatype": "string",
+            "name": "y"
+        }],
+        "contextObj": {
+            "name": "userwidgetmodel",
+            "type": "userwidgets",
+            "KUID": "u6f33e4e6f9f4cf9a95aaf90b382de30"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET_i73e0da4d6524187b3651a916b932f38",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "var x = new kony.mvc.Navigation(\"frmGenerateVoucherMI\");\nx.navigate();",
+            "parentId": null
+        }]
+    }
+}

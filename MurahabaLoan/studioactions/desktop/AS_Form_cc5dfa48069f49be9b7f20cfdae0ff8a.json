@@ -1,0 +1,23 @@
+{
+    "AS_Form_cc5dfa48069f49be9b7f20cfdae0ff8a": {
+        "id": "AS_Form_cc5dfa48069f49be9b7f20cfdae0ff8a",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "frmResetUser",
+            "type": "forms",
+            "platform": "",
+            "KUID": "b3bedf43d96d41b0b4b52a2b20b3337b"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET_b53c4d4c63c34f908fa82f1055deb774",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "this.onPostShow();",
+            "parentId": null
+        }]
+    }
+}

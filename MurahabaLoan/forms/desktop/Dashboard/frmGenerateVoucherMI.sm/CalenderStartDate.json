@@ -1,0 +1,131 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizDateField",
+    "DNDConfig": null,
+    "Image": "dropdown2x.png",
+    "__id": "frmGenerateVoucherMI_CalenderStartDate",
+    "__input": "CalenderStartDate",
+    "_data_": null,
+    "_date_": [
+        null,
+        null,
+        null
+    ],
+    "_height_": {
+        "type": "ref",
+        "value": "preferred"
+    },
+    "_left_": {
+        "type": "string",
+        "value": "20dp"
+    },
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_placeholder_": "voucher generate start date",
+    "_skin_": "sa77daa91ffb4740b97723f0d3ae855b",
+    "_startG": [
+        0,
+        11,
+        2022
+    ],
+    "_top_": {
+        "type": "string",
+        "value": "35%"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "25%"
+    },
+    "advview": "default",
+    "calendaricon": "calbtn.png",
+    "canUpdateUI": true,
+    "containerweight": 100,
+    "contentalignment": 5,
+    "datecomponents": [
+        null,
+        null,
+        null
+    ],
+    "dateeditable": true,
+    "dateformat": "dd/MM/yyyy",
+    "datesGroup": [],
+    "datesState": 0,
+    "day": null,
+    "daytextalignmentincell": 5,
+    "desktopweb": {
+        "calendarIcon": "dropdown2x.png"
+    },
+    "displayedMonths": [
+        1,
+        2001
+    ],
+    "entereddate": [
+        null,
+        null,
+        null
+    ],
+    "format": "dd/MM/yyyy",
+    "formatteddate": "",
+    "hidedaysheader": false,
+    "hidemonthsheader": false,
+    "hour": 0,
+    "id": "CalenderStartDate",
+    "info": null,
+    "iscustomlayout": false,
+    "isvisible": true,
+    "kuid": "i077977019824748b85f01adf1255661",
+    "luadate": [
+        null,
+        null,
+        null
+    ],
+    "minutes": 0,
+    "month": null,
+    "monthsinrow": 3,
+    "name": "kony.ui.Calendar",
+    "navigatorAlert": "Invalid Selection",
+    "noofmonths": 1,
+    "paddinginpixel": false,
+    "pagedate": "/2022",
+    "parent": "flxGroupCalender",
+    "pf": "frmGenerateVoucherMI",
+    "popupHeight": "auto",
+    "popupWidth": "auto",
+    "retaincontentalignment": false,
+    "retainflexpositionproperties": false,
+    "seconds": 0,
+    "selectdate": "//2022",
+    "startDay": 0,
+    "startdate": [
+        1,
+        1,
+        2001
+    ],
+    "validstartdate": [
+        1,
+        1,
+        2001
+    ],
+    "viewtype": "default",
+    "wType": "Calendar",
+    "widgetalignment": 5,
+    "widths": [
+        "14.2857%;",
+        "14.2857%;",
+        "14.2857%;",
+        "14.2857%;",
+        "14.2857%;",
+        "14.2857%;",
+        "14.2857%;"
+    ],
+    "year": null
+}

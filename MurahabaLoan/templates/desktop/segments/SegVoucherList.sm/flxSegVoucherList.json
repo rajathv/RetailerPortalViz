@@ -1,0 +1,77 @@
+{
+    "DNDConfig": null,
+    "_height_": {
+        "type": "string",
+        "value": "40dp"
+    },
+    "_left_": {
+        "type": "string",
+        "value": "0dp"
+    },
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_orientation_": 6,
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_percent_": true,
+    "_skin_": "sa6c95d6a2de43559d647c787411cd1e",
+    "_top_": {
+        "type": "string",
+        "value": "0dp"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "100%"
+    },
+    "allboxes": [],
+    "autogrowmode": 0,
+    "canUpdateUI": true,
+    "children": [
+        "flx1",
+        "Copyflx0h4855b8f989f47",
+        "Copyflx0b32f0b58130443",
+        "Copyflx0f094c8b43cea49",
+        "Copyflx0b44e9847ab5b4a",
+        "Copyflx0f522cba27e0f47",
+        "Copyflx0d073f3cf227742",
+        "Copyflx0b0429c32662845",
+        "Copyflx0hf84cd2fd1da4b",
+        "Copyflx0aa6c3fcb945146",
+        "Copyflx0f26bb64162554d"
+    ],
+    "clipbounds": false,
+    "containerId": true,
+    "containerweight": 100,
+    "controllerInfo": {
+        "default": {
+            "channel": "desktop",
+            "name": "flxSegVoucherListController"
+        }
+    },
+    "enablescrolling": true,
+    "id": "flxSegVoucherList",
+    "info": null,
+    "isTemplate": true,
+    "iscustomlayout": false,
+    "isvisible": true,
+    "kuid": "e0ea5cb127ff4a2f8d24f4e80f3aff25",
+    "layouttype": 3,
+    "name": "kony.ui.FlexContainer",
+    "parent": "SegVoucherList",
+    "pf": "SegVoucherList",
+    "retaincontentalignment": false,
+    "retainflexpositionproperties": false,
+    "retainflowhorizontalalignment": false,
+    "snapgridsize": 10,
+    "snaptogrid": true,
+    "wType": "FlexContainer",
+    "widgetalignment": 1
+}

@@ -1,0 +1,42 @@
+{
+  "operationConfig" : {
+    "name" : "dbxdb_sp_get_vouchermi4180",
+    "type" : "MappedToBackend",
+    "cachable" : false,
+    "smsEnabled" : false,
+    "security" : "public",
+    "responseEncoding" : "UTF-8",
+    "httpMethod" : "GET",
+    "decodeResponseBody" : false,
+    "iMapping" : "<?xml version=\"1.0\" encoding=\"UTF-8\" standalone=\"yes\"?>\n<mapper xmlns=\"http://www.kony.com/ns/mapper\">\n    <map inputpath=\"request_in\" outputpath=\"request_out\">\n        <set-param inputpath=\"enddate\" outputpath=\"enddate\"/>\n        <set-param inputpath=\"mobile\" outputpath=\"mobileno\"/>\n        <set-param inputpath=\"startdate\" outputpath=\"startdate\"/>\n        <set-param inputpath=\"retailerid\" outputpath=\"vretailerID\"/>\n        <set-param inputpath=\"status\" outputpath=\"vstatus\"/>\n    </map>\n</mapper>\n",
+    "iVisualMappingData" : "{\"nodeDataArray\":[{\"isGroup\":true,\"key\":\"request_in\",\"text\":\"voucher\",\"xy\":\"221 123\"},{\"isGroup\":true,\"key\":\"request_out\",\"text\":\"RetailerDBService (1.0).dbxdb_sp_get_vouchermi\",\"xy\":\"788 153\"}],\"linkDataArray\":[{\"category\":\"Mapping\",\"visible\":true,\"from\":\"source:voucher:status:\",\"to\":\"target:vstatus:\",\"fromPort\":\"source:voucher:status:\",\"toPort\":\"target:vstatus:\"},{\"category\":\"Mapping\",\"visible\":true,\"from\":\"source:voucher:startdate:\",\"to\":\"target:startdate:\",\"fromPort\":\"source:voucher:startdate:\",\"toPort\":\"target:startdate:\"},{\"category\":\"Mapping\",\"visible\":true,\"from\":\"source:voucher:enddate:\",\"to\":\"target:enddate:\",\"fromPort\":\"source:voucher:enddate:\",\"toPort\":\"target:enddate:\"},{\"category\":\"Mapping\",\"visible\":true,\"from\":\"source:voucher:mobile:\",\"to\":\"target:mobileno:\",\"fromPort\":\"source:voucher:mobile:\",\"toPort\":\"target:mobileno:\"},{\"category\":\"Mapping\",\"visible\":true,\"from\":\"source:voucher:retailerid:\",\"to\":\"target:vretailerID:\",\"fromPort\":\"source:voucher:retailerid:\",\"toPort\":\"target:vretailerID:\"}],\"blockCount\":{\"variableCount\":0},\"variableMap\":{},\"xmlMappingOverride\":false}",
+    "applyCommonMapping" : false,
+    "applyRequestCommonMapping" : false,
+    "applyResponseCommonMapping" : true,
+    "backendMeta" : {
+      "serviceName" : "RetailerDBService",
+      "serviceVersion" : "1.0",
+      "operationName" : "dbxdb_sp_get_vouchermi"
+    },
+    "relationshipHierarchyMapping" : {
+      "children" : [ ],
+      "name" : "voucher",
+      "actions" : { },
+      "selected" : true
+    },
+    "requestXmlMappingOverride" : false,
+    "responseXmlMappingOverride" : false,
+    "mapperData" : [ {
+      "name" : "base mapper1",
+      "order" : 1,
+      "iMapping" : "<?xml version=\"1.0\" encoding=\"UTF-8\" standalone=\"yes\"?><mapper xmlns=\"http://www.kony.com/ns/mapper\">  <map inputpath=\"request_in\" outputpath=\"request_out\">    <set-param inputpath=\"enddate\" outputpath=\"enddate\"/>    <set-param inputpath=\"mobile\" outputpath=\"mobileno\"/>    <set-param inputpath=\"startdate\" outputpath=\"startdate\"/>    <set-param inputpath=\"retailerid\" outputpath=\"vretailerID\"/>    <set-param inputpath=\"status\" outputpath=\"vstatus\"/>  </map></mapper>",
+      "iVisualMappingData" : "{\"nodeDataArray\":[{\"isGroup\":true,\"key\":\"request_in\",\"text\":\"voucher\",\"xy\":\"221 123\"},{\"isGroup\":true,\"key\":\"request_out\",\"text\":\"RetailerDBService (1.0).dbxdb_sp_get_vouchermi\",\"xy\":\"788 153\"}],\"linkDataArray\":[{\"category\":\"Mapping\",\"visible\":true,\"from\":\"source:voucher:status:\",\"to\":\"target:vstatus:\",\"fromPort\":\"source:voucher:status:\",\"toPort\":\"target:vstatus:\"},{\"category\":\"Mapping\",\"visible\":true,\"from\":\"source:voucher:startdate:\",\"to\":\"target:startdate:\",\"fromPort\":\"source:voucher:startdate:\",\"toPort\":\"target:startdate:\"},{\"category\":\"Mapping\",\"visible\":true,\"from\":\"source:voucher:enddate:\",\"to\":\"target:enddate:\",\"fromPort\":\"source:voucher:enddate:\",\"toPort\":\"target:enddate:\"},{\"category\":\"Mapping\",\"visible\":true,\"from\":\"source:voucher:mobile:\",\"to\":\"target:mobileno:\",\"fromPort\":\"source:voucher:mobile:\",\"toPort\":\"target:mobileno:\"},{\"from\":\"source\",\"to\":\"source:voucher\",\"fromPort\":\"source\",\"toPort\":\"source:voucher\",\"visible\":true,\"common\":false},{\"from\":\"source:voucher\",\"to\":\"source:voucher:t_p_fields\",\"fromPort\":\"source:voucher\",\"toPort\":\"source:voucher:t_p_fields\",\"visible\":true,\"common\":false},{\"from\":\"source:voucher:t_p_fields\",\"to\":\"source:voucher:voucherid:\",\"fromPort\":\"source:voucher:t_p_fields\",\"toPort\":\"source:voucher:voucherid:\",\"visible\":true,\"common\":false},{\"from\":\"source:voucher:t_p_fields\",\"to\":\"source:voucher:vouchercode:\",\"fromPort\":\"source:voucher:t_p_fields\",\"toPort\":\"source:voucher:vouchercode:\",\"visible\":true,\"common\":false},{\"from\":\"source:voucher:t_p_fields\",\"to\":\"source:voucher:code:\",\"fromPort\":\"source:voucher:t_p_fields\",\"toPort\":\"source:voucher:code:\",\"visible\":true,\"common\":false},{\"from\":\"source:voucher:t_p_fields\",\"to\":\"source:voucher:retailerid:\",\"fromPort\":\"source:voucher:t_p_fields\",\"toPort\":\"source:voucher:retailerid:\",\"visible\":true,\"common\":false},{\"from\":\"source:voucher:t_p_fields\",\"to\":\"source:voucher:status:\",\"fromPort\":\"source:voucher:t_p_fields\",\"toPort\":\"source:voucher:status:\",\"visible\":true,\"common\":false},{\"from\":\"source:voucher:t_p_fields\",\"to\":\"source:voucher:startdate:\",\"fromPort\":\"source:voucher:t_p_fields\",\"toPort\":\"source:voucher:startdate:\",\"visible\":true,\"common\":false},{\"from\":\"source:voucher:t_p_fields\",\"to\":\"source:voucher:enddate:\",\"fromPort\":\"source:voucher:t_p_fields\",\"toPort\":\"source:voucher:enddate:\",\"visible\":true,\"common\":false},{\"from\":\"source:voucher:t_p_fields\",\"to\":\"source:voucher:customerid:\",\"fromPort\":\"source:voucher:t_p_fields\",\"toPort\":\"source:voucher:customerid:\",\"visible\":true,\"common\":false},{\"from\":\"source:voucher:t_p_fields\",\"to\":\"source:voucher:mobile:\",\"fromPort\":\"source:voucher:t_p_fields\",\"toPort\":\"source:voucher:mobile:\",\"visible\":true,\"common\":false},{\"from\":\"target\",\"to\":\"target:t_p_parameters\",\"fromPort\":\"target\",\"toPort\":\"target:t_p_parameters\",\"visible\":true,\"common\":false},{\"from\":\"target:t_p_parameters\",\"to\":\"target:enddate:\",\"fromPort\":\"target:t_p_parameters\",\"toPort\":\"target:enddate:\",\"visible\":true,\"common\":false},{\"from\":\"target:t_p_parameters\",\"to\":\"target:mobileno:\",\"fromPort\":\"target:t_p_parameters\",\"toPort\":\"target:mobileno:\",\"visible\":true,\"common\":false},{\"from\":\"target:t_p_parameters\",\"to\":\"target:startdate:\",\"fromPort\":\"target:t_p_parameters\",\"toPort\":\"target:startdate:\",\"visible\":true,\"common\":false},{\"from\":\"target:t_p_parameters\",\"to\":\"target:vretailerID:\",\"fromPort\":\"target:t_p_parameters\",\"toPort\":\"target:vretailerID:\",\"visible\":true,\"common\":false},{\"from\":\"target:t_p_parameters\",\"to\":\"target:vstatus:\",\"fromPort\":\"target:t_p_parameters\",\"toPort\":\"target:vstatus:\",\"visible\":true,\"common\":false},{\"category\":\"Mapping\",\"visible\":true,\"from\":\"source:voucher:retailerid:\",\"to\":\"target:vretailerID:\",\"fromPort\":\"source:voucher:retailerid:\",\"toPort\":\"target:vretailerID:\"}],\"blockCount\":{\"variableCount\":0},\"variableMap\":{},\"xmlMappingOverride\":false}",
+      "requestXmlMappingOverride" : false,
+      "responseXmlMappingOverride" : false,
+      "disabled" : false,
+      "applyCommonMapping" : false,
+      "applyRequestCommonMapping" : false,
+      "applyResponseCommonMapping" : true
+    } ]
+  }
+}

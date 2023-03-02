@@ -1,0 +1,23 @@
+{
+    "AS_Form_b348acf341d94a81b6628581b329c938": {
+        "id": "AS_Form_b348acf341d94a81b6628581b329c938",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "frmRedeemVoucher",
+            "type": "forms",
+            "platform": "",
+            "KUID": "a0811b35dfd14b38b67cf423a895106e"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET_f9380e87ec924988a497d4bf8dd3858b",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "this.onPreShow();",
+            "parentId": null
+        }]
+    }
+}

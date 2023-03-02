@@ -1,0 +1,14 @@
+{
+  "name" : "MoraRetailerLogin",
+  "type" : "custom",
+  "version" : "1.0",
+  "metaPreference" : -1,
+  "config" : "{\"header_params\":[],\"session_restrictions\":{\"session_restriction_type\":\"allow_any_number_of_sessions\"},\"is_mfa_enabled\":false,\"provider_params\":{},\"body_params\":{},\"custom_idp_url\":\"http://172.18.32.48:8080/services/RetailerLoginAPI\"}",
+  "policyConfig" : "{\"def_user_status\":\"pending\",\"max_login_fail\":5}",
+  "admissionPolicy" : "no_approval_needed",
+  "identityMeta" : {
+    "allow_sso" : false
+  },
+  "isIntegrityEnabled" : true,
+  "ssoenabled" : false
+}

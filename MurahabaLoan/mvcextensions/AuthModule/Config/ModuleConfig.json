@@ -1,0 +1,11 @@
+{
+    "PresentationControllerConfig": {
+        "Default": {
+            "PresentationExtensions": [],
+            "PresentationControllerClass": "AuthModule/PresentationControllers/PresentationController"
+        }
+    },
+    "Forms": {},
+    "ModuleType": "AuthModule",
+    "ModuleName": "AuthModule"
+}

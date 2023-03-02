@@ -1,0 +1,71 @@
+{
+    "DNDConfig": null,
+    "_height_": {
+        "type": "string",
+        "value": "510px"
+    },
+    "_left_": {
+        "type": "string",
+        "value": "0dp"
+    },
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_orientation_": 6,
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_percent_": true,
+    "_skin_": "sf1072d106ac4203b651157b0c135e5e",
+    "_top_": {
+        "type": "string",
+        "value": "0dp"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "552px"
+    },
+    "allboxes": [],
+    "autogrowmode": 0,
+    "canUpdateUI": true,
+    "centerx": {
+        "type": "string",
+        "value": "50%"
+    },
+    "centery": {
+        "type": "string",
+        "value": "50%"
+    },
+    "children": [
+        "lblRetailPater",
+        "flxLine",
+        "lblConfirmation",
+        "flxBtn"
+    ],
+    "clipbounds": false,
+    "containerweight": 100,
+    "enablescrolling": true,
+    "id": "flxConfirmationPopup",
+    "info": null,
+    "iscustomlayout": false,
+    "isvisible": false,
+    "kuid": "gdb7b33e86e84d3388696c09c509e669",
+    "layouttype": 2,
+    "name": "kony.ui.FlexContainer",
+    "parent": "flxGenerateVoucher",
+    "pf": "frmGenerateVoucherMI",
+    "retaincontentalignment": false,
+    "retainflexpositionproperties": false,
+    "retainflowhorizontalalignment": false,
+    "snapgridsize": 10,
+    "snaptogrid": true,
+    "wType": "FlexContainer",
+    "widgetalignment": 1,
+    "zindex": 10
+}

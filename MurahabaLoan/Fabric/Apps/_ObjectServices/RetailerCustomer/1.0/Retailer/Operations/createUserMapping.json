@@ -1,0 +1,42 @@
+{
+  "operationConfig" : {
+    "name" : "CreateNewUser9107",
+    "type" : "MappedToBackend",
+    "cachable" : false,
+    "smsEnabled" : false,
+    "security" : "public",
+    "responseEncoding" : "UTF-8",
+    "httpMethod" : "GET",
+    "decodeResponseBody" : false,
+    "iMapping" : "<?xml version=\"1.0\" encoding=\"UTF-8\" standalone=\"yes\"?>\n<mapper xmlns=\"http://www.kony.com/ns/mapper\">\n    <map inputpath=\"request_in\" outputpath=\"request_out\">\n        <set-param inputpath=\"emailid\" outputpath=\"email\"/>\n        <set-param inputpath=\"phoneno\" outputpath=\"phonenumber\"/>\n        <set-param inputpath=\"retailerid\" outputpath=\"retailerid\"/>\n        <set-param inputpath=\"retailername\" outputpath=\"retailername\"/>\n        <set-param inputpath=\"role\" outputpath=\"role\"/>\n        <set-param inputpath=\"status\" outputpath=\"status\"/>\n        <set-param inputpath=\"userid\" outputpath=\"userid\"/>\n        <set-param inputpath=\"username\" outputpath=\"username\"/>\n    </map>\n</mapper>\n",
+    "iVisualMappingData" : "{\"nodeDataArray\":[{\"isGroup\":true,\"key\":\"request_in\",\"text\":\"Retailer\",\"xy\":\"258 138\"},{\"isGroup\":true,\"key\":\"request_out\",\"text\":\"RetailerJavaService (1.0).CreateNewUser\",\"xy\":\"873 163\"}],\"linkDataArray\":[{\"category\":\"Mapping\",\"visible\":true,\"from\":\"source:Retailer:userid:\",\"to\":\"target:userid:\",\"fromPort\":\"source:Retailer:userid:\",\"toPort\":\"target:userid:\"},{\"category\":\"Mapping\",\"visible\":true,\"from\":\"source:Retailer:status:\",\"to\":\"target:status:\",\"fromPort\":\"source:Retailer:status:\",\"toPort\":\"target:status:\"},{\"category\":\"Mapping\",\"visible\":true,\"from\":\"source:Retailer:retailerid:\",\"to\":\"target:retailerid:\",\"fromPort\":\"source:Retailer:retailerid:\",\"toPort\":\"target:retailerid:\"},{\"category\":\"Mapping\",\"visible\":true,\"from\":\"source:Retailer:retailername:\",\"to\":\"target:retailername:\",\"fromPort\":\"source:Retailer:retailername:\",\"toPort\":\"target:retailername:\"},{\"category\":\"Mapping\",\"visible\":true,\"from\":\"source:Retailer:role:\",\"to\":\"target:role:\",\"fromPort\":\"source:Retailer:role:\",\"toPort\":\"target:role:\"},{\"category\":\"Mapping\",\"visible\":true,\"from\":\"source:Retailer:phoneno:\",\"to\":\"target:phonenumber:\",\"fromPort\":\"source:Retailer:phoneno:\",\"toPort\":\"target:phonenumber:\"},{\"category\":\"Mapping\",\"visible\":true,\"from\":\"source:Retailer:emailid:\",\"to\":\"target:email:\",\"fromPort\":\"source:Retailer:emailid:\",\"toPort\":\"target:email:\"},{\"category\":\"Mapping\",\"visible\":true,\"from\":\"source:Retailer:username:\",\"to\":\"target:username:\",\"fromPort\":\"source:Retailer:username:\",\"toPort\":\"target:username:\"}],\"blockCount\":{\"variableCount\":0},\"variableMap\":{},\"xmlMappingOverride\":false}",
+    "applyCommonMapping" : false,
+    "applyRequestCommonMapping" : false,
+    "applyResponseCommonMapping" : true,
+    "backendMeta" : {
+      "serviceName" : "RetailerJavaService",
+      "serviceVersion" : "1.0",
+      "operationName" : "CreateNewUser"
+    },
+    "relationshipHierarchyMapping" : {
+      "children" : [ ],
+      "name" : "Retailer",
+      "actions" : { },
+      "selected" : true
+    },
+    "requestXmlMappingOverride" : false,
+    "responseXmlMappingOverride" : false,
+    "mapperData" : [ {
+      "name" : "base mapper1",
+      "order" : 1,
+      "iMapping" : "<?xml version=\"1.0\" encoding=\"UTF-8\" standalone=\"yes\"?>\n<mapper xmlns=\"http://www.kony.com/ns/mapper\">\n    <map inputpath=\"request_in\" outputpath=\"request_out\">\n        <set-param inputpath=\"emailid\" outputpath=\"email\"/>\n        <set-param inputpath=\"phoneno\" outputpath=\"phonenumber\"/>\n        <set-param inputpath=\"retailerid\" outputpath=\"retailerid\"/>\n        <set-param inputpath=\"retailername\" outputpath=\"retailername\"/>\n        <set-param inputpath=\"role\" outputpath=\"role\"/>\n        <set-param inputpath=\"status\" outputpath=\"status\"/>\n        <set-param inputpath=\"userid\" outputpath=\"userid\"/>\n        <set-param inputpath=\"username\" outputpath=\"username\"/>\n    </map>\n</mapper>\n",
+      "iVisualMappingData" : "{\"nodeDataArray\":[{\"isGroup\":true,\"key\":\"request_in\",\"text\":\"Retailer\",\"xy\":\"258 138\"},{\"isGroup\":true,\"key\":\"request_out\",\"text\":\"RetailerJavaService (1.0).CreateNewUser\",\"xy\":\"873 163\"}],\"linkDataArray\":[{\"category\":\"Mapping\",\"visible\":true,\"from\":\"source:Retailer:userid:\",\"to\":\"target:userid:\",\"fromPort\":\"source:Retailer:userid:\",\"toPort\":\"target:userid:\"},{\"category\":\"Mapping\",\"visible\":true,\"from\":\"source:Retailer:status:\",\"to\":\"target:status:\",\"fromPort\":\"source:Retailer:status:\",\"toPort\":\"target:status:\"},{\"category\":\"Mapping\",\"visible\":true,\"from\":\"source:Retailer:retailerid:\",\"to\":\"target:retailerid:\",\"fromPort\":\"source:Retailer:retailerid:\",\"toPort\":\"target:retailerid:\"},{\"category\":\"Mapping\",\"visible\":true,\"from\":\"source:Retailer:retailername:\",\"to\":\"target:retailername:\",\"fromPort\":\"source:Retailer:retailername:\",\"toPort\":\"target:retailername:\"},{\"category\":\"Mapping\",\"visible\":true,\"from\":\"source:Retailer:role:\",\"to\":\"target:role:\",\"fromPort\":\"source:Retailer:role:\",\"toPort\":\"target:role:\"},{\"category\":\"Mapping\",\"visible\":true,\"from\":\"source:Retailer:phoneno:\",\"to\":\"target:phonenumber:\",\"fromPort\":\"source:Retailer:phoneno:\",\"toPort\":\"target:phonenumber:\"},{\"category\":\"Mapping\",\"visible\":true,\"from\":\"source:Retailer:emailid:\",\"to\":\"target:email:\",\"fromPort\":\"source:Retailer:emailid:\",\"toPort\":\"target:email:\"},{\"category\":\"Mapping\",\"visible\":true,\"from\":\"source:Retailer:username:\",\"to\":\"target:username:\",\"fromPort\":\"source:Retailer:username:\",\"toPort\":\"target:username:\"}],\"blockCount\":{\"variableCount\":0},\"variableMap\":{},\"xmlMappingOverride\":false}",
+      "requestXmlMappingOverride" : false,
+      "responseXmlMappingOverride" : false,
+      "disabled" : false,
+      "applyCommonMapping" : false,
+      "applyRequestCommonMapping" : false,
+      "applyResponseCommonMapping" : true
+    } ]
+  }
+}

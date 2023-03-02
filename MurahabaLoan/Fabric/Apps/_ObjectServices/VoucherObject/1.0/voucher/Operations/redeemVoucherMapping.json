@@ -1,0 +1,42 @@
+{
+  "operationConfig" : {
+    "name" : "RedeemVoucher3475",
+    "type" : "MappedToBackend",
+    "cachable" : false,
+    "smsEnabled" : false,
+    "security" : "public",
+    "responseEncoding" : "UTF-8",
+    "httpMethod" : "GET",
+    "decodeResponseBody" : false,
+    "iMapping" : "<?xml version=\"1.0\" encoding=\"UTF-8\" standalone=\"yes\"?>\n<mapper xmlns=\"http://www.kony.com/ns/mapper\">\n    <map inputpath=\"request_in\" outputpath=\"request_out\">\n        <set-param inputpath=\"vouchercode\" outputpath=\"voucherCode\"/>\n        <set-param inputpath=\"voucherid\" outputpath=\"voucherId\"/>\n        <set-param inputpath=\"status\" outputpath=\"voucherStatus\"/>\n    </map>\n</mapper>\n",
+    "iVisualMappingData" : "{\"nodeDataArray\":[{\"isGroup\":true,\"key\":\"request_in\",\"text\":\"voucher\",\"xy\":\"423 191\"},{\"isGroup\":true,\"key\":\"request_out\",\"text\":\"RetailerJavaService2 (1.0).RedeemVoucher\",\"xy\":\"948 205\"}],\"linkDataArray\":[{\"category\":\"Mapping\",\"visible\":true,\"from\":\"source:voucher:voucherid:\",\"to\":\"target:voucherId:\",\"fromPort\":\"source:voucher:voucherid:\",\"toPort\":\"target:voucherId:\"},{\"category\":\"Mapping\",\"visible\":true,\"from\":\"source:voucher:status:\",\"to\":\"target:voucherStatus:\",\"fromPort\":\"source:voucher:status:\",\"toPort\":\"target:voucherStatus:\"},{\"category\":\"Mapping\",\"visible\":true,\"from\":\"source:voucher:vouchercode:\",\"to\":\"target:voucherCode:\",\"fromPort\":\"source:voucher:vouchercode:\",\"toPort\":\"target:voucherCode:\"}],\"blockCount\":{\"variableCount\":0},\"variableMap\":{},\"xmlMappingOverride\":false}",
+    "applyCommonMapping" : false,
+    "applyRequestCommonMapping" : false,
+    "applyResponseCommonMapping" : true,
+    "backendMeta" : {
+      "serviceName" : "RetailerJavaService2",
+      "serviceVersion" : "1.0",
+      "operationName" : "RedeemVoucher"
+    },
+    "relationshipHierarchyMapping" : {
+      "children" : [ ],
+      "name" : "voucher",
+      "actions" : { },
+      "selected" : true
+    },
+    "requestXmlMappingOverride" : false,
+    "responseXmlMappingOverride" : false,
+    "mapperData" : [ {
+      "name" : "base mapper1",
+      "order" : 1,
+      "iMapping" : "<?xml version=\"1.0\" encoding=\"UTF-8\" standalone=\"yes\"?>\n<mapper xmlns=\"http://www.kony.com/ns/mapper\">\n    <map inputpath=\"request_in\" outputpath=\"request_out\">\n        <set-param inputpath=\"vouchercode\" outputpath=\"voucherCode\"/>\n        <set-param inputpath=\"voucherid\" outputpath=\"voucherId\"/>\n        <set-param inputpath=\"status\" outputpath=\"voucherStatus\"/>\n    </map>\n</mapper>\n",
+      "iVisualMappingData" : "{\"nodeDataArray\":[{\"isGroup\":true,\"key\":\"request_in\",\"text\":\"voucher\",\"xy\":\"423 191\"},{\"isGroup\":true,\"key\":\"request_out\",\"text\":\"RetailerJavaService2 (1.0).RedeemVoucher\",\"xy\":\"948 205\"}],\"linkDataArray\":[{\"category\":\"Mapping\",\"visible\":true,\"from\":\"source:voucher:voucherid:\",\"to\":\"target:voucherId:\",\"fromPort\":\"source:voucher:voucherid:\",\"toPort\":\"target:voucherId:\"},{\"category\":\"Mapping\",\"visible\":true,\"from\":\"source:voucher:status:\",\"to\":\"target:voucherStatus:\",\"fromPort\":\"source:voucher:status:\",\"toPort\":\"target:voucherStatus:\"},{\"category\":\"Mapping\",\"visible\":true,\"from\":\"source:voucher:vouchercode:\",\"to\":\"target:voucherCode:\",\"fromPort\":\"source:voucher:vouchercode:\",\"toPort\":\"target:voucherCode:\"}],\"blockCount\":{\"variableCount\":0},\"variableMap\":{},\"xmlMappingOverride\":false}",
+      "requestXmlMappingOverride" : false,
+      "responseXmlMappingOverride" : false,
+      "disabled" : false,
+      "applyCommonMapping" : false,
+      "applyRequestCommonMapping" : false,
+      "applyResponseCommonMapping" : true
+    } ]
+  }
+}

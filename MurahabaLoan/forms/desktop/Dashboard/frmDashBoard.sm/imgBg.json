@@ -1,0 +1,53 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizImage2",
+    "DNDConfig": null,
+    "_base64_": null,
+    "_height_": {
+        "type": "string",
+        "value": "1000px"
+    },
+    "_left_": {
+        "type": "string",
+        "value": "50px"
+    },
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_skin_": "sa9987a1be0e43e4bef5a1760a4c37db",
+    "_src_": "background1x.png",
+    "_top_": {
+        "type": "string",
+        "value": "-239dp"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "1156px"
+    },
+    "canUpdateUI": true,
+    "containerweight": 100,
+    "id": "imgBg",
+    "imagescalemode": 1,
+    "info": null,
+    "invokedProperty": "src",
+    "iscustomlayout": false,
+    "isvisible": true,
+    "kuid": "e1ad9e8b21d54c01b9d0297be65a1518",
+    "name": "kony.ui.Image2",
+    "parent": "flxRightPane",
+    "pf": "frmDashBoard",
+    "retaincontentalignment": false,
+    "retainflexpositionproperties": false,
+    "srcType": 1,
+    "wType": "Image",
+    "widgetalignment": 5,
+    "zindex": 1
+}

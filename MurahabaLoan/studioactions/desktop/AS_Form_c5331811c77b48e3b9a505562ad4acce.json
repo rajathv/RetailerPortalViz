@@ -1,0 +1,23 @@
+{
+    "AS_Form_c5331811c77b48e3b9a505562ad4acce": {
+        "id": "AS_Form_c5331811c77b48e3b9a505562ad4acce",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "frmGenerateVoucherMI",
+            "type": "forms",
+            "platform": "",
+            "KUID": "b086746480ac477c9130ea433f894135"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET_efb11e1b20764a47ae637e0cf99cb1f6",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "this.onPreShow();",
+            "parentId": null
+        }]
+    }
+}

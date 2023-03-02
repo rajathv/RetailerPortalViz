@@ -1,0 +1,53 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizImage2",
+    "DNDConfig": null,
+    "_base64_": null,
+    "_bottom_": {
+        "type": "string",
+        "value": "120px"
+    },
+    "_height_": {
+        "type": "string",
+        "value": "260dp"
+    },
+    "_left_": {
+        "type": "string",
+        "value": "145px"
+    },
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_skin_": "sa9987a1be0e43e4bef5a1760a4c37db",
+    "_src_": "login1x.png",
+    "_width_": {
+        "type": "string",
+        "value": "227dp"
+    },
+    "canUpdateUI": true,
+    "containerweight": 100,
+    "id": "imgLogin",
+    "imagescalemode": 1,
+    "info": null,
+    "invokedProperty": "src",
+    "iscustomlayout": false,
+    "isvisible": true,
+    "kuid": "c6bb745f3e5b4300b20a4904be9a2676",
+    "name": "kony.ui.Image2",
+    "parent": "flxLeft",
+    "pf": "frmLogin",
+    "retaincontentalignment": false,
+    "retainflexpositionproperties": false,
+    "srcType": 1,
+    "wType": "Image",
+    "widgetalignment": 5,
+    "zindex": 1
+}

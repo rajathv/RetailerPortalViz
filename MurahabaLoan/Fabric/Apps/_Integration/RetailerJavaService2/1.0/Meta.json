@@ -1,0 +1,31 @@
+{
+  "serviceType" : "integration",
+  "jars" : [ {
+    "name" : "DBPFramework.jar",
+    "type" : "jar"
+  }, {
+    "name" : "Event-Dispatcher.jar",
+    "type" : "jar"
+  }, {
+    "name" : "log4j-1.2.17.jar",
+    "type" : "jar"
+  }, {
+    "name" : "dbp-commonutilityservices.jar",
+    "type" : "jar"
+  }, {
+    "name" : "dbp-mfaservices.jar",
+    "type" : "jar"
+  }, {
+    "name" : "commons-io-2.4.jar",
+    "type" : "jar"
+  }, {
+    "name" : "AdminConsoleServices.jar",
+    "type" : "jar"
+  }, {
+    "name" : "AdminConsoleCommons.jar",
+    "type" : "jar"
+  }, {
+    "name" : "ijarah-services-1.0.jar",
+    "type" : "servicejar"
+  } ]
+}

@@ -1,0 +1,42 @@
+{
+  "operationConfig" : {
+    "name" : "GenerateVoucher2560",
+    "type" : "MappedToBackend",
+    "cachable" : false,
+    "smsEnabled" : false,
+    "security" : "public",
+    "responseEncoding" : "UTF-8",
+    "httpMethod" : "GET",
+    "decodeResponseBody" : false,
+    "iMapping" : "<?xml version=\"1.0\" encoding=\"UTF-8\" standalone=\"yes\"?>\n<mapper xmlns=\"http://www.kony.com/ns/mapper\">\n    <map inputpath=\"request_in\" outputpath=\"request_out\">\n        <set-param inputpath=\"enddate\" outputpath=\"enddate\"/>\n        <set-param inputpath=\"mobile\" outputpath=\"mobile\"/>\n        <set-param inputpath=\"startdate\" outputpath=\"startdate\"/>\n        <set-param inputpath=\"status\" outputpath=\"status\"/>\n    </map>\n</mapper>\n",
+    "iVisualMappingData" : "{\"nodeDataArray\":[{\"isGroup\":true,\"key\":\"request_in\",\"text\":\"voucher\",\"xy\":\"150 100\"},{\"isGroup\":true,\"key\":\"request_out\",\"text\":\"RetailerJavaService (1.0).GenerateVoucher\",\"xy\":\"770 100\"}],\"linkDataArray\":[{\"category\":\"Mapping\",\"visible\":true,\"from\":\"source:voucher:mobile:\",\"to\":\"target:mobile:\",\"fromPort\":\"source:voucher:mobile:\",\"toPort\":\"target:mobile:\"},{\"category\":\"Mapping\",\"visible\":true,\"from\":\"source:voucher:startdate:\",\"to\":\"target:startdate:\",\"fromPort\":\"source:voucher:startdate:\",\"toPort\":\"target:startdate:\"},{\"category\":\"Mapping\",\"visible\":true,\"from\":\"source:voucher:enddate:\",\"to\":\"target:enddate:\",\"fromPort\":\"source:voucher:enddate:\",\"toPort\":\"target:enddate:\"},{\"category\":\"Mapping\",\"visible\":true,\"from\":\"source:voucher:status:\",\"to\":\"target:status:\",\"fromPort\":\"source:voucher:status:\",\"toPort\":\"target:status:\"}],\"blockCount\":{\"variableCount\":0},\"variableMap\":{},\"xmlMappingOverride\":false}",
+    "applyCommonMapping" : false,
+    "applyRequestCommonMapping" : false,
+    "applyResponseCommonMapping" : true,
+    "backendMeta" : {
+      "serviceName" : "RetailerJavaService",
+      "serviceVersion" : "1.0",
+      "operationName" : "GenerateVoucher"
+    },
+    "relationshipHierarchyMapping" : {
+      "children" : [ ],
+      "name" : "voucher",
+      "actions" : { },
+      "selected" : true
+    },
+    "requestXmlMappingOverride" : false,
+    "responseXmlMappingOverride" : false,
+    "mapperData" : [ {
+      "name" : "base mapper1",
+      "order" : 1,
+      "iMapping" : "<?xml version=\"1.0\" encoding=\"UTF-8\" standalone=\"yes\"?>\n<mapper xmlns=\"http://www.kony.com/ns/mapper\">\n    <map inputpath=\"request_in\" outputpath=\"request_out\">\n        <set-param inputpath=\"enddate\" outputpath=\"enddate\"/>\n        <set-param inputpath=\"mobile\" outputpath=\"mobile\"/>\n        <set-param inputpath=\"startdate\" outputpath=\"startdate\"/>\n        <set-param inputpath=\"status\" outputpath=\"status\"/>\n    </map>\n</mapper>\n",
+      "iVisualMappingData" : "{\"nodeDataArray\":[{\"isGroup\":true,\"key\":\"request_in\",\"text\":\"voucher\",\"xy\":\"150 100\"},{\"isGroup\":true,\"key\":\"request_out\",\"text\":\"RetailerJavaService (1.0).GenerateVoucher\",\"xy\":\"770 100\"}],\"linkDataArray\":[{\"category\":\"Mapping\",\"visible\":true,\"from\":\"source:voucher:mobile:\",\"to\":\"target:mobile:\",\"fromPort\":\"source:voucher:mobile:\",\"toPort\":\"target:mobile:\"},{\"category\":\"Mapping\",\"visible\":true,\"from\":\"source:voucher:startdate:\",\"to\":\"target:startdate:\",\"fromPort\":\"source:voucher:startdate:\",\"toPort\":\"target:startdate:\"},{\"category\":\"Mapping\",\"visible\":true,\"from\":\"source:voucher:enddate:\",\"to\":\"target:enddate:\",\"fromPort\":\"source:voucher:enddate:\",\"toPort\":\"target:enddate:\"},{\"category\":\"Mapping\",\"visible\":true,\"from\":\"source:voucher:status:\",\"to\":\"target:status:\",\"fromPort\":\"source:voucher:status:\",\"toPort\":\"target:status:\"}],\"blockCount\":{\"variableCount\":0},\"variableMap\":{},\"xmlMappingOverride\":false}",
+      "requestXmlMappingOverride" : false,
+      "responseXmlMappingOverride" : false,
+      "disabled" : false,
+      "applyCommonMapping" : false,
+      "applyRequestCommonMapping" : false,
+      "applyResponseCommonMapping" : true
+    } ]
+  }
+}

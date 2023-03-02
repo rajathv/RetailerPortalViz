@@ -1,0 +1,23 @@
+{
+    "AS_Form_acd49ad4da3c4d4f86ad97c28fd759fd": {
+        "id": "AS_Form_acd49ad4da3c4d4f86ad97c28fd759fd",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "frmOtpValidation",
+            "type": "forms",
+            "platform": "",
+            "KUID": "hcb095da60264f9e84c7b1e1444c871a"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET_bba1caf52d594f53b3a8d05708e0c4fe",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "this.onPreShow();",
+            "parentId": null
+        }]
+    }
+}
