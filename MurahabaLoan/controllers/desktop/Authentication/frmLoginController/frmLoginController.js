@@ -1,12 +1,15 @@
 define(['ServiceResponse'],function(ServiceResponse){ 
   return {
     onPreShow: function() {
+      
       let self = this;
+  
       this.resetUI();
       this.view.btnContinue.onClick = function() {
         self.validateFields();
       };
     },
+   
     resetUI: function() {
       this.view.txtEmailorPhone.text = "";
       this.view.txtPassword.text = "";

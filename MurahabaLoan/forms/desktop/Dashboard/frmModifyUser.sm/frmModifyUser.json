@@ -72,7 +72,7 @@
     },
     "device": "desktopweb",
     "displayorientation": 1,
-    "enabledforidletimeout": false,
+    "enabledforidletimeout": true,
     "friendlyName": "frmModifyUser",
     "id": "frmModifyUser",
     "ide_postShow": "AS_Form_g9cdd0378599449380e0539232e540a3",

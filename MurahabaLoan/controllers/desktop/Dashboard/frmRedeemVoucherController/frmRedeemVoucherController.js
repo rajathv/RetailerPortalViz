@@ -8,7 +8,64 @@ define(['ServiceResponse'],function(ServiceResponse){
   return {
     onPreShow: function() {
       let self = this;
-      this.resetUI();
+      self.resetUI();
+      // next function
+      this.view.txtotp1.onTextChange=function(){
+        if(self.view.txtotp1.text===" " || self.view.txtotp1.text===""){
+          self.view.txtotp1.setFocus(true);
+          self.view.forceLayout();
+        }else{
+          self.view.txtotp2.setFocus(true);
+          self.view.forceLayout();
+        }
+      };
+      this.view.txtotp2.onTextChange =function(){
+        if(self.view.txtotp2.text===" " || self.view.txtotp2.text===""){
+          self.view.txtotp2.setFocus(true);
+          self.view.forceLayout();
+        }else{
+          self.view.txtotp3.setFocus(true);
+          self.view.forceLayout();
+        }
+      };
+      this.view.txtotp3.onTextChange =function(){
+        if(self.view.txtotp3.text===" " || self.view.txtotp3.text===""){
+          self.view.txtotp3.setFocus(true);
+          self.view.forceLayout();
+        }else{
+          self.view.txtotp4.setFocus(true);
+          self.view.forceLayout();
+        }
+      };
+      this.view.txtotp4.onTextChange =function(){
+        if(self.view.txtotp4.text===" " || self.view.txtotp4.text===""){
+          self.view.txtotp4.setFocus(true);
+          self.view.forceLayout();
+        }else{
+          self.view.txtotp5.setFocus(true);
+          self.view.forceLayout();
+        }
+
+      };
+      this.view.txtotp5.onTextChange =function(){
+        if(self.view.txtotp5.text===" "|| self.view.txtotp5.text===""){
+          self.view.txtotp5.setFocus(true);
+          self.view.forceLayout();
+        }else{
+          self.view.txtotp6.setFocus(true);
+          self.view.forceLayout();
+        }
+      };
+      this.view.txtotp6.onTextChange =function(){
+        if(self.view.txtotp6.text===" "|| self.view.txtotp6.text===""){
+          self.view.txtotp6.setFocus(true);
+          self.view.forceLayout();
+        }else{
+          self.view.btnContinue.setFocus(true);
+          self.view.forceLayout();
+        }
+      };
+      
       this.view.txtSearchVoucher.onBeginEditing = function() {
         self.view.flxSegmentSearchList.isVisible = true;
       };
@@ -163,6 +220,8 @@ define(['ServiceResponse'],function(ServiceResponse){
 //       this.view.btnRedeemVoucher.left = "55%";
     },
     onPostShow: function() {
+            this.view.txtotp1.setFocus(true);
+      this.view.forceLayout();
       this.getAllVoucherList();
       //this.tempGtAll();
     },
@@ -356,8 +415,20 @@ define(['ServiceResponse'],function(ServiceResponse){
       this.reedemVoucher();
     },
     verifyMFAError: function(error) {
+    
+      this.view.txtotp1.text = "";
+      this.view.txtotp2.text = "";
+      this.view.txtotp3.text = "";
+      this.view.txtotp4.text = "";
+      this.view.txtotp5.text = "";
+      this.view.txtotp6.text = "";
+
       kony.application.dismissLoadingScreen();
       this.view.flxError.isVisible = true;
+      
+      this.view.txtotp1.setFocus(true);
+      this.view.forceLayout();
+      
     },
     timer: function (remaining) {
       var timerself = this;

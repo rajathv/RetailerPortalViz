@@ -72,7 +72,7 @@
     },
     "device": "desktopweb",
     "displayorientation": 1,
-    "enabledforidletimeout": false,
+    "enabledforidletimeout": true,
     "friendlyName": "frmGenerateVoucherMI",
     "id": "frmGenerateVoucherMI",
     "ide_preShow": "AS_Form_c5331811c77b48e3b9a505562ad4acce",

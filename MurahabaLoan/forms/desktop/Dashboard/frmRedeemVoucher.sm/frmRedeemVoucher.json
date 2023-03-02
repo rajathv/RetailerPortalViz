@@ -68,7 +68,7 @@
     },
     "device": "desktopweb",
     "displayorientation": 1,
-    "enabledforidletimeout": false,
+    "enabledforidletimeout": true,
     "friendlyName": "frmRedeemVoucher",
     "id": "frmRedeemVoucher",
     "ide_postShow": "AS_Form_c3b6bb41838345ed9c158d6c83a53ba1",

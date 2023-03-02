@@ -80,7 +80,9 @@
                 "kuid": "f03c528495d846ebbfebff408f4fd03d",
                 "srcKUID": "ud5f4f8415d845e3a9b9f38de8746e94",
                 "wType": "Button"
-            }
+            },
+            "isVisible": false,
+            "responsiveData": {}
         },
         "flxHeader": {
             "__events__": {},

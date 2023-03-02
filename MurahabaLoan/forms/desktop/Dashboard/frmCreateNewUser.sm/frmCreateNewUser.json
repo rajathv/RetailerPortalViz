@@ -68,7 +68,7 @@
     },
     "device": "desktopweb",
     "displayorientation": 1,
-    "enabledforidletimeout": false,
+    "enabledforidletimeout": true,
     "friendlyName": "frmCreateNewUser",
     "id": "frmCreateNewUser",
     "ide_preShow": "AS_Form_da5ee9503e7845febeacf55ee1ed4126",

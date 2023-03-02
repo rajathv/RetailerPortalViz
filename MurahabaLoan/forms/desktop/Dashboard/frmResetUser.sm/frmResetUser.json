@@ -68,7 +68,7 @@
     },
     "device": "desktopweb",
     "displayorientation": 1,
-    "enabledforidletimeout": false,
+    "enabledforidletimeout": true,
     "friendlyName": "frmResetUser",
     "id": "frmResetUser",
     "ide_postShow": "AS_Form_cc5dfa48069f49be9b7f20cfdae0ff8a",
