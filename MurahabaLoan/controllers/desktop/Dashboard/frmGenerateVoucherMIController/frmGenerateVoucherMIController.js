@@ -99,6 +99,7 @@ define(['ServiceResponse'],function(ServiceResponse){
       param.mobile = this.view.txtSearchVoucher.text;
       param.status = selectedStatus;
       param.retailerid = ServiceResponse.USER_ATTRIBUTES.retailerid;
+      //param.retailerid = "10262";
       kony.application.showLoadingScreen("", "Loading", "", "", "", "");
       var voucherManager = applicationManager.getVoucherManager();
       voucherManager.getVoucherMIList(param,this.getVoucherMISucess,this.getVoucherMIError);
@@ -154,7 +155,7 @@ define(['ServiceResponse'],function(ServiceResponse){
           "lblApplicatntId":voucherData[i].applicationID,
           "lblApplicantPhone":voucherData[i].mobile,
           "lblLoanAmount" : voucherData[i].loanAmount,
-          "lblVoucherNumber" :voucherData[i].voucherCode,
+          "lblVoucherNumber" : (voucherData[i].voucherCode) ? voucherData[i].voucherCode : "",
           "lblVoucherStatus" : voucherData[i].voucherStatus,
           "lblGenerationDate" : gendate,
           "lblExpiryDate" : expireSlice,
@@ -203,12 +204,13 @@ define(['ServiceResponse'],function(ServiceResponse){
           data.LoanAmount = voucherData[i].loanAmount;
           data.Status = voucherData[i].voucherStatus;
           data.PhoneNo = voucherData[i].mobile;
-          data.T24CustomerId = voucherData[i].Customer_id;
+          data.CustomerId = voucherData[i].Customer_id;
           data.Tenor = voucherData[i].tenor;
           excelData.push(data);
           ++serialNo;
         }
         this.view.brwsExcel.evaluateJavaScript("exportJsonToXLSX(" + JSON.stringify(excelData) + ")");
+        kony.print("Download");
       }
     }
   };

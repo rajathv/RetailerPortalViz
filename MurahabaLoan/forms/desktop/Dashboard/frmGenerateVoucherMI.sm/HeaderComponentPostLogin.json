@@ -131,7 +131,9 @@
                 "kuid": "f5e703d2da9040f5ae88a8781a562c84",
                 "srcKUID": "b9e40c49f5ae494cbd8d9c6233c4a6be",
                 "wType": "FlexContainer"
-            }
+            },
+            "isVisible": false,
+            "responsiveData": {}
         },
         "imgHamburger": {
             "__events__": {},

@@ -22,7 +22,7 @@
         0
     ],
     "_skin_": "sb5c5d53c90c4942994c354984b04b31",
-    "_text_": "Special character (any character that is not an uppercase or a lowercase letter or a numeric character — for example, !, %, @, #)",
+    "_text_": "Special character (any character that is not an uppercase or a lowercase letter or a numeric character — for example, !, %, @, #,?)",
     "_top_": {
         "type": "string",
         "value": "0dp"

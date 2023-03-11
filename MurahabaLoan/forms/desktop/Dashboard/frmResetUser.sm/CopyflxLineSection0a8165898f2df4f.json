@@ -45,7 +45,7 @@
     "kuid": "f467489599114d7d96e13b1f04e13e49",
     "layouttype": 2,
     "name": "kony.ui.FlexContainer",
-    "parent": "flxUserNotFound",
+    "parent": "flxPopUpErr",
     "pf": "frmResetUser",
     "retaincontentalignment": false,
     "retainflexpositionproperties": false,

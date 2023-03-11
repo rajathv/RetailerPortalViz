@@ -12,6 +12,7 @@ define([], function() {
 		"enddate": "enddate",
 		"customerid": "customerid",
 		"mobile": "mobile",
+		"userid": "userid",
 	};
 
 	Object.freeze(mappings);
@@ -26,6 +27,7 @@ define([], function() {
 		"enddate": "string",
 		"customerid": "string",
 		"mobile": "string",
+		"userid": "string",
 	}
 
 	Object.freeze(typings);

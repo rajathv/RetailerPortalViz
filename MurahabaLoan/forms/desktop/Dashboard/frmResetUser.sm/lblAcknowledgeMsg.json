@@ -57,7 +57,7 @@
     "isvisible": true,
     "kuid": "e95009a4d94244d4b60c640534c56a36",
     "name": "kony.ui.Label",
-    "parent": "flxAcknowledgement",
+    "parent": "flxPopUpAcknowledgement",
     "pf": "frmResetUser",
     "retaincontentalignment": false,
     "retainflexpositionproperties": false,

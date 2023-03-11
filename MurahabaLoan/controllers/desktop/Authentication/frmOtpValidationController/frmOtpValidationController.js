@@ -1,5 +1,5 @@
 define([],function(){ 
-  let securityKey = "", resendtime = 180,phoneno = "";
+  let securityKey = "", otpExpiryTime = 180, resendtime = 180,phoneno = "";
   return {
     onNavigate: function(params) {
       if(!params) {
@@ -11,6 +11,7 @@ define([],function(){
     },
     onPreShow: function() {
       var self = this;
+      otpExpiryTime = 0;
       var MobileNumber = this.phoneno;
       var lenOfPhoneNumber = MobileNumber.length;
       var SubLen = lenOfPhoneNumber - 4;
@@ -142,11 +143,13 @@ define([],function(){
       kony.application.dismissLoadingScreen();
       if(response.securityKey) {
         securityKey = response.securityKey;
-        this.timer(resendtime);
+        otpExpiryTime = 180;
+        this.timer();
       }
     },
     resendMFASucess: function(response) {
       kony.application.dismissLoadingScreen();
+      otpExpiryTime = 180;
       if(response.securityKey) {
         securityKey = response.securityKey;
         this.view.txtotp1.text = "";
@@ -156,12 +159,11 @@ define([],function(){
         this.view.txtotp5.text = "";
         this.view.txtotp6.text = "";
         this.view.btnReSend.setEnabled(false);
-        this.timer(resendtime);
+        this.timer();
         this.view.flxError.isVisible = false;
       }
     },
     requestMFAError: function(error) {
-
       kony.application.dismissLoadingScreen();
       this.view.flxError.isVisible = true;
     },
@@ -176,11 +178,11 @@ define([],function(){
     },
     verifyMFASucess: function(response) {
       kony.application.dismissLoadingScreen();      
+      otpExpiryTime = 0;
       var x = new kony.mvc.Navigation("frmDashBoard");
       x.navigate();
     },
-    verifyMFAError: function(error) {
-    
+    verifyMFAError: function(error) {    
       this.view.txtotp1.text = "";
       this.view.txtotp2.text = "";
       this.view.txtotp3.text = "";
@@ -195,17 +197,17 @@ define([],function(){
       this.view.forceLayout();
       
     },
-    timer: function (remaining) {
+    timer: function () {
       var timerself = this;
-      var m = Math.floor(remaining / 60);
-      var s = remaining % 60;
+      var m = Math.floor(otpExpiryTime / 60);
+      var s = otpExpiryTime % 60;
       m = m < 10 ? '0' + m : m;
       s = s < 10 ? '0' + s : s;
       this.view.lblotpresend.text = m + ':' + s;
-      remaining -= 1;
-      if(remaining >= 0) {
+      otpExpiryTime -= 1;
+      if(otpExpiryTime >= 0) {
         setTimeout(function() {
-          timerself.timer(remaining);
+          timerself.timer(otpExpiryTime);
         }, 1000);
         return;
       }

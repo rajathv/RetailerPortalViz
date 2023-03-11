@@ -1,18 +1,16 @@
 <!DOCTYPE html>
 <html>
 <body>
-<!--
-<button onclick="exportJsonToXLSX()">Download File</button> -->
+<!-- <button onclick="exportJsonToXLSX()">Download File</button> -->
 <p id="demo"></p>
 <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/xlsx/0.13.1/xlsx.full.min.js"></script> 
 <script>
-function exportJsonToXLSX(datas) {
-  document.getElementById("demo").innerHTML = "Hello World";
-  var filename='reports.xlsx';
-  var data=[{"Market": "IN", "New Arrivals": "6", "Upcoming Appointments": "2", "Pending - 1st Attempt": "4"}];
-  var ws = XLSX.utils.json_to_sheet(datas);
+function exportJsonToXLSX(data) {
+  var filename='voucher.xlsx';
+  //var data=[{"Market": "IN", "New Arrivals": "6", "Upcoming Appointments": "2", "Pending - 1st Attempt": "4"}];
+  var ws = XLSX.utils.json_to_sheet(data);
   var wb = XLSX.utils.book_new();
-  XLSX.utils.book_append_sheet(wb, ws, "People");
+  XLSX.utils.book_append_sheet(wb, ws, "Vouchers");
   XLSX.writeFile(wb,filename);
 }
 </script>

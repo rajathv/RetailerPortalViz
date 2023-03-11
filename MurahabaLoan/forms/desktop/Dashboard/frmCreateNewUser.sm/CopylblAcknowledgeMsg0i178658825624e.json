@@ -57,7 +57,7 @@
     "isvisible": true,
     "kuid": "ff03b722356841bca755a6be91f4407d",
     "name": "kony.ui.Label",
-    "parent": "flxUserNotFound",
+    "parent": "flxpopup",
     "pf": "frmCreateNewUser",
     "retaincontentalignment": false,
     "retainflexpositionproperties": false,

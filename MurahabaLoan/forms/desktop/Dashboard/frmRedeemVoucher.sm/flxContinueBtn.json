@@ -48,7 +48,7 @@
     "kuid": "edd8b394b0624990978a7308d5cc0285",
     "layouttype": 2,
     "name": "kony.ui.FlexContainer",
-    "parent": "flxPopupVoucherNotfound",
+    "parent": "flxErrorPopup",
     "pf": "frmRedeemVoucher",
     "retaincontentalignment": false,
     "retainflexpositionproperties": false,

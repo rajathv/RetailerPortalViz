@@ -54,6 +54,11 @@ define([], function() {
             context["metadata"] = (objectMetadata ? objectMetadata["mobile"] : null);
             state['mobile'] = kony.mvc.util.ProcessorUtils.applyFunction(preProcessorCallback, val, context);
         },
+        userid: function(val, state) {
+            context["field"] = "userid";
+            context["metadata"] = (objectMetadata ? objectMetadata["userid"] : null);
+            state['userid'] = kony.mvc.util.ProcessorUtils.applyFunction(preProcessorCallback, val, context);
+        },
     };
 
     //Create the Model Class
@@ -128,6 +133,14 @@ define([], function() {
         privateState.mobile = defaultValues ?
             (defaultValues["mobile"] ?
                 kony.mvc.util.ProcessorUtils.applyFunction(preProcessorCallback, defaultValues["mobile"], context) :
+                null) :
+            null;
+
+        context["field"] = "userid";
+        context["metadata"] = (objectMetadata ? objectMetadata["userid"] : null);
+        privateState.userid = defaultValues ?
+            (defaultValues["userid"] ?
+                kony.mvc.util.ProcessorUtils.applyFunction(preProcessorCallback, defaultValues["userid"], context) :
                 null) :
             null;
 
@@ -236,6 +249,17 @@ define([], function() {
                 },
                 enumerable: true,
             },
+            "userid": {
+                get: function() {
+                    context["field"] = "userid";
+                    context["metadata"] = (objectMetadata ? objectMetadata["userid"] : null);
+                    return kony.mvc.util.ProcessorUtils.applyFunction(postProcessorCallback, privateState.userid, context);
+                },
+                set: function(val) {
+                    setterFunctions['userid'].call(this, val, privateState);
+                },
+                enumerable: true,
+            },
         });
 
         //converts model object to json object.
@@ -254,6 +278,7 @@ define([], function() {
             privateState.enddate = value ? (value["enddate"] ? value["enddate"] : null) : null;
             privateState.customerid = value ? (value["customerid"] ? value["customerid"] : null) : null;
             privateState.mobile = value ? (value["mobile"] ? value["mobile"] : null) : null;
+            privateState.userid = value ? (value["userid"] ? value["userid"] : null) : null;
         };
     }
 

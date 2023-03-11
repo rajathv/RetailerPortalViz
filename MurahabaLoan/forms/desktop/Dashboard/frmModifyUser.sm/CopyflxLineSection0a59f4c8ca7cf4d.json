@@ -45,7 +45,7 @@
     "kuid": "g54ae43c431d48119a323937b16d7db1",
     "layouttype": 2,
     "name": "kony.ui.FlexContainer",
-    "parent": "flxModifiedSucess",
+    "parent": "flxpopUp",
     "pf": "frmModifyUser",
     "retaincontentalignment": false,
     "retainflexpositionproperties": false,

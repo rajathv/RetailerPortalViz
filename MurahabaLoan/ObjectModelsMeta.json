@@ -15,17 +15,17 @@
         {
             "serviceId": "037d69b7-11aa-4f5e-a9f9-3f5a46e095a8",
             "serviceName": "VoucherObject",
-            "serviceETag": "0deb42d5-b2ff-4f4a-ad6d-81e81b9bf80d",
+            "serviceETag": "f07da101-84f8-48a8-93e4-7080d916c937",
             "objects": [
                 {
                     "objectId": "13505",
                     "objectName": "voucher",
-                    "objectETag": "5e6a53c4-50d8-4e91-a7f0-5f704de4ff63"
+                    "objectETag": "094a7697-f512-492c-b4fc-bdb81cd373be"
                 }
             ]
         }
     ],
     "appInfo": {
-        "serviceDocEtag": "0000018692C83DD0"
+        "serviceDocEtag": "00000186C283B568"
     }
 }

@@ -23,8 +23,9 @@ define(['ServiceResponse'],function(ServiceResponse){
       this.view.txtUserId.onEndEditing = function() {
         self.validateFields();
       };
-      this.view.lblRoleSelection.onTouchEnd = function() {
-        if(self.view.flxSegRole.isVisible) {
+      //this.view.lblRoleSelection.onTouchEnd = function() {
+      this.view.flxRoleSelection.onClick = function() { 
+      if(self.view.flxSegRole.isVisible) {
           self.view.imgArrow.src = "downarrow1x.png";
           self.view.flxSegRole.isVisible = false;  
         } else {

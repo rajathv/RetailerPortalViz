@@ -45,7 +45,7 @@
     "kuid": "ie14185e543548b786cbb6104c67c778",
     "layouttype": 2,
     "name": "kony.ui.FlexContainer",
-    "parent": "flxAcknowledgement",
+    "parent": "flxPopUpAcknowledgement",
     "pf": "frmResetUser",
     "retaincontentalignment": false,
     "retainflexpositionproperties": false,

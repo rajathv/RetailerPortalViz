@@ -8,6 +8,7 @@ define(['ServiceResponse'],function(ServiceResponse){
   return {
     onPreShow: function() {
       let self = this;
+      resendtime = 0;
       self.resetUI();
       // next function
       this.view.txtotp1.onTextChange=function(){
@@ -328,7 +329,8 @@ define(['ServiceResponse'],function(ServiceResponse){
       let param = {
         "vouchercode": voucherCode,
         "voucherid": voucherInfo.voucherID,
-        "status": "REDEEMED"
+        "status": "REDEEMED",
+        "userid":ServiceResponse.USER_ATTRIBUTES.user_id
       };
       kony.application.showLoadingScreen("", "Loading", "", "", "", "");
       var voucherManager = applicationManager.getVoucherManager();
@@ -373,7 +375,8 @@ define(['ServiceResponse'],function(ServiceResponse){
         this.view.btnReSend.setEnabled(false);
         this.view.flxVoucherDetails.isVisible = false;  
         this.view.flxError.isVisible = false;
-        this.timer(resendtime);
+        resendtime = 180;
+        this.timer();
       }
     },
     resendMFASucess: function(response) {
@@ -388,7 +391,8 @@ define(['ServiceResponse'],function(ServiceResponse){
         this.view.txtotp6.text = "";
         this.view.btnReSend.setEnabled(false);
         this.view.flxError.isVisible = false;
-        this.timer(resendtime);
+        resendtime = 180;
+        this.timer();
       }
     },
     requestMFAError: function(error) {
@@ -412,6 +416,7 @@ define(['ServiceResponse'],function(ServiceResponse){
 //       this.view.btnSendOtp.isVisible = false;
 //       this.view.btnRedeemVoucher.skin = "sknbtn2c3d73Rounded18px";
 //       this.view.btnRedeemVoucher.left = "39%";
+      resendtime = 0;
       this.reedemVoucher();
     },
     verifyMFAError: function(error) {
@@ -430,17 +435,17 @@ define(['ServiceResponse'],function(ServiceResponse){
       this.view.forceLayout();
       
     },
-    timer: function (remaining) {
+    timer: function () {
       var timerself = this;
-      var m = Math.floor(remaining / 60);
-      var s = remaining % 60;
+      var m = Math.floor(resendtime / 60);
+      var s = resendtime % 60;
       m = m < 10 ? '0' + m : m;
       s = s < 10 ? '0' + s : s;
       this.view.lblotpresend.text = m + ':' + s;
-      remaining -= 1;
-      if(remaining >= 0) {
+      resendtime -= 1;
+      if(resendtime >= 0) {
         setTimeout(function() {
-          timerself.timer(remaining);
+          timerself.timer(resendtime);
         }, 1000);
         return;
       }

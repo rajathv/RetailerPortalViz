@@ -57,7 +57,7 @@
     "isvisible": true,
     "kuid": "debdb1a0baec48cbadd36dd2fb42ba7d",
     "name": "kony.ui.Label",
-    "parent": "flxPopupVoucherNotfound",
+    "parent": "flxErrorPopup",
     "pf": "frmRedeemVoucher",
     "retaincontentalignment": false,
     "retainflexpositionproperties": false,

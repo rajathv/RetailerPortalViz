@@ -47,7 +47,7 @@
     "kuid": "ced8005542f84ef5bdfbb252ad13ebb7",
     "layouttype": 2,
     "name": "kony.ui.FlexContainer",
-    "parent": "flxConfirmationPopup",
+    "parent": "flxpopup",
     "pf": "frmGenerateVoucherMI",
     "retaincontentalignment": false,
     "retainflexpositionproperties": false,

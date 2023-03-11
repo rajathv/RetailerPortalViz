@@ -25,30 +25,70 @@ define(['ServiceResponse'],function(ServiceResponse){
         self.view.flxConfirmationPopup.isVisible = false;
       };
       this.view.btnYes.onClick = function() {
-		self.resetUserpassword();
+        self.resetUserpassword();
       };
       this.view.btnContinue.onClick = function() {
         self.resetUI();
       };
       this.view.txtSearchUser.onTextChange = function(eventId) {
-        let searchText = eventId.text;
-        if(searchText.length > 1) {
-          let filteredData = retailerList.filter(
-            data => (data.UserId).includes(searchText));
-          kony.print(filteredData);
-          self.view.segUsers.setData(filteredData);
+
+        let searchText = eventId.text.toLowerCase();
+        //phone number 
+        var phoneformat = /^\d+$/;
+        //Email and user  	
+        var dotCheck =searchText.includes('.') ? "true" : "false";
+        var atCheck=searchText.includes('@') ? "true" : "false";
+
+        var filteredData=[];
+
+        if(searchText.length >= 1) {
+          //Phone
+          if(searchText.match(phoneformat)) {
+            self.view.segUsers.removeAll();
+            self.view.segUsers.widgetDataMap = {
+              lblUserName: "PhoneNo"
+            };
+            filteredData = retailerList.filter(
+              data => (data.PhoneNo).includes(searchText));
+            self.view.segUsers.setData(filteredData);
+          }else{
+            self.view.segUsers.removeAll();
+            self.view.segUsers.widgetDataMap = {
+              lblUserName: "UserId"
+            };
+            filteredData = retailerList.filter(
+              data => (data.UserId.toLowerCase()).includes(searchText));
+            kony.print(filteredData);
+            self.view.segUsers.setData(filteredData);
+          }
+
+          if(filteredData.length === 0) {
+            self.view.segUsers.removeAll();
+            self.view.segUsers.widgetDataMap = {
+              lblUserName: "EmailId"
+            };
+            filteredData = retailerList.filter(
+              data => (data.EmailId).includes(searchText));
+            self.view.segUsers.setData(filteredData);
+          }
           if(filteredData.length === 0) {
             self.view.flxSegmentSearchList.isVisible = false;
             self.view.flxUserNotFound.isVisible = true;
+            self.view.txtSearchUser.setEnabled(false);
           }
-        } else {
-          self.view.segUsers.setData(retailerList);
         }
+        
       };
       this.view.btnSearchAgain.onClick = function(){
+           self.view.txtSearchUser.setEnabled(true);
         self.view.flxUserNotFound.isVisible = false;
         self.view.txtSearchUser.text = "";
+        self.view.segUsers.removeAll();
+        self.view.segUsers.widgetDataMap = {
+          lblUserName: "UserId"
+        };
         self.view.segUsers.setData(retailerList);
+       // self.view.segUsers.setData(retailerList);
       };
     },
     resetUI: function(){
@@ -58,6 +98,7 @@ define(['ServiceResponse'],function(ServiceResponse){
       this.view.flxConfirmationPopup.isVisible = false;
       this.view.flxAcknowledgement.isVisible = false;
       this.view.flxSegmentSearchList.isVisible = false;
+       this.view.txtSearchUser.setEnabled(true);
     },
     onPostShow: function() {
       this.getAllUserList();
